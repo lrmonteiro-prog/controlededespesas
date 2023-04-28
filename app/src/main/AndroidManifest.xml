@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_financeiro"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_financeiro_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ControleDeDespesas">
+        <activity android:name=".Main.MainActivityMes" />
+        <activity android:name=".Main.Activity_repetir_mes" />
+        <activity android:name=".Main.Activity_alterar_dados" />
+        <activity android:name=".Main.MainActivity" />
+        <activity android:name=".Main.MainActivityCategoria" />
+        <activity android:name=".Main.Activity_alterar_categoria" />
+        <activity android:name=".Graficos.ActivityGraficoPizza" />
+        <activity android:name=".Graficos.ActivityGraficoBarra" />
+        <activity android:name=".Graficos.ActivityGraficoLinha" />
+        <activity android:name=".Listar.ListarCusteioReceitaActivity" />
+        <activity android:name=".Listar.ListarCusteioReceitaActivity2" />
+        <activity android:name=".Listar.ListarCategoriaActivity" />
+        <activity android:name=".Listar.ListarCusteioReceitaRelatorioActivity" />
+        <activity android:name=".Listar.ListarMesActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

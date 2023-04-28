@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Localizar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:icon="@android:drawable/ic_input_add"
+        android:onClick="cadastrar"
+        android:title="Cadastrar"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:onClick="configurarItem"
+        android:title="Itens da Categoria"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:onClick="graficoBarra"
+        android:title="Grafico Anual"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:onClick="graficoLinha"
+        android:title="Gráfico Anual Receita X Despesa"
+        app:showAsAction="collapseActionView" />
+</menu>
