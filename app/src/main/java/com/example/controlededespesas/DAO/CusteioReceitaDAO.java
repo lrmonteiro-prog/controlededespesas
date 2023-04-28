@@ -1,13 +1,13 @@
+// Autor: Luiz Ricardo Monteiro
+
 package com.example.controlededespesas.DAO;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
 import com.example.controlededespesas.BEAN.CusteioReceitaBEAN;
 import com.example.controlededespesas.conexao.Conexao;
-
 import java.util.ArrayList;
 import java.util.List;
 
