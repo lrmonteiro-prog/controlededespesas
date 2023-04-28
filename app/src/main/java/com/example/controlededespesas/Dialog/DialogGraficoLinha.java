@@ -1,3 +1,5 @@
+// Autor: Luiz Ricardo Monteiro
+
 package com.example.controlededespesas.Dialog;
 
 import android.app.AlertDialog;
@@ -8,9 +10,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
-
 import androidx.appcompat.app.AppCompatDialogFragment;
-
 import com.example.controlededespesas.R;
 
 
