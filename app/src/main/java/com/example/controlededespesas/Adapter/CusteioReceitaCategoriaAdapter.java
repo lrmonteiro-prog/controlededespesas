@@ -1,3 +1,5 @@
+// Autor: Luiz Ricardo Monteiro
+
 package com.example.controlededespesas.Adapter;
 
 import android.app.Activity;
@@ -5,10 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
 import com.example.controlededespesas.BEAN.CusteioReceitaCategoriaBEAN;
 import com.example.controlededespesas.R;
-
 import java.util.List;
 
 public class CusteioReceitaCategoriaAdapter extends BaseAdapter {
