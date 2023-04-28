@@ -1,3 +1,5 @@
+// Autor: Luiz Ricardo Monteiro
+
 package com.example.controlededespesas.Graficos;
 
 import android.content.Intent;
@@ -40,9 +42,6 @@ public class ActivityGraficoBarra extends AppCompatActivity {
         Intent intent = getIntent();
         anografico = (String) intent.getSerializableExtra("anografico");
         tipografico = (String) intent.getSerializableExtra("tipografico");
-
-//        Toast.makeText(this, "Ano: "+anografico, Toast.LENGTH_LONG).show();
-//        Toast.makeText(this, "Tipo: "+tipografico, Toast.LENGTH_LONG).show();
 
         conexao = new Conexao(this);
         custeio = conexao.getWritableDatabase();
