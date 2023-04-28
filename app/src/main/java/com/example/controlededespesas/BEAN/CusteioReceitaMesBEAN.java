@@ -1,3 +1,5 @@
+// Autor: Luiz Ricardo Monteiro
+
 package com.example.controlededespesas.BEAN;
 
 import java.io.Serializable;
