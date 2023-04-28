@@ -7,26 +7,21 @@ import android.content.Context;
 import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
 import java.sql.Connection;
 import java.sql.SQLException;
 
 public class Conexao extends SQLiteOpenHelper {
-
     private static final String name = "custeio.bd";
     private static final int version = 8;
-
-
     public Conexao(@Nullable Context context) {
         super(context, name,null,version);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        // Criação das tabelas
         String sql_custeioreceitacategoria = "create table custeioreceitacategoria(iditem integer primary key autoincrement," +
                 " item varchar(25)unique)";
 
