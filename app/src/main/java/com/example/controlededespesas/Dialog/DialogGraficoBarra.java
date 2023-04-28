@@ -1,3 +1,5 @@
+// Autor: Luiz Ricardo Monteiro
+
 package com.example.controlededespesas.Dialog;
 
 import android.app.AlertDialog;
@@ -11,7 +13,6 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatDialogFragment;
 import com.example.controlededespesas.R;
 
